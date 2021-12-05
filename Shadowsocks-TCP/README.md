@@ -62,3 +62,5 @@ systemctl start v2ray && systemctl status v2ray
 3.请勿使用Xray_core的Shadowsocks连接VPS（有BUG暂未修复）
 
 4.请选择带有v2ray_core的手机端APP连接VPS（如[SagerNet](https://github.com/SagerNet/SagerNet)）
+
+5.密码建议使用16位或理强的
