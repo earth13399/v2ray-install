@@ -52,3 +52,13 @@ systemctl start v2ray && systemctl status v2ray
 - 点击“v2fly-Core — 是否下载? — 是”。
 - 点击“Update GeoSite — 是否下载? — 是”。
 - 点击“Update GeoIP — 是否下载? — 是”。
+
+## 注意事项
+
+1.禁止了VPS访问CN域名和IP
+
+2.请使用v2ray_core的Shadowsocks连接VPS（如v2rayN）
+
+3.请勿使用Xray_core的Shadowsocks连接VPS（有BUG暂未修复）
+
+4.请选择带有v2ray_core的手机端APP连接VPS（如[SagerNet](https://github.com/SagerNet/SagerNet)）
