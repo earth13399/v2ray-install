@@ -18,8 +18,7 @@
                 "type": "field",
                 "domain": [
                     "geosite:category-ads-all",
-                    "geosite:cn",
-                    "geosite:category-games@cn"
+                    "geosite:cn"
                 ],
                 "outboundTag": "block"
             },
