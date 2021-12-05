@@ -57,7 +57,7 @@ systemctl start v2ray && systemctl status v2ray
 
 1.禁止了VPS访问CN域名和IP
 
-2.请使用v2ray_core的Shadowsocks连接VPS（如v2rayN）
+2.请使用v2ray_core的Shadowsocks连接VPS
 
 3.请勿使用Xray_core的Shadowsocks连接VPS（有BUG暂未修复）
 
