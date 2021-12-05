@@ -41,10 +41,10 @@ systemctl start v2ray && systemctl status v2ray
 6.2.在v2rayN中添加服务器
 
 点击“服务器 — 添加[Shadowsocks]服务器”
-- 服务器地址：你VPS的IP
-- 服务器端口：50001
-- 密码：8tetnZHnBJcrnbjIpTi9fQ==
-- 加密方式：aes-256-gcm
+- 服务器地址：`你VPS的IP`
+- 服务器端口：`50001`
+- 密码：`8tetnZHnBJcrnbjIpTi9fQ==`
+- 加密方式：`aes-256-gcm`
 
 确定
 
