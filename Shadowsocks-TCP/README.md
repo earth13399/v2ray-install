@@ -63,4 +63,4 @@ systemctl start v2ray && systemctl status v2ray
 
 4.请选择带有v2ray_core的手机端APP连接VPS（如[SagerNet](https://github.com/SagerNet/SagerNet)）
 
-5.密码建议使用16位或更强的
+5.密码建议使用[16位或更强的](https://1password.com/password-generator/)
