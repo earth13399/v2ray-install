@@ -29,3 +29,26 @@ systemctl enable v2ray
 ```
 systemctl start v2ray && systemctl status v2ray
 ```
+
+6.1下载和设置v2rayN
+
+[打开链接](https://github.com/2dust/v2rayN/releases) 点击最新版本栏里的“▸ Assets”，找到名为v2rayN-Core.zip的文件并下载。
+
+- 点击 设置 — 参数设置 — v2rayN设置，勾选“更新Core时忽略Geo文件”，将“Core类型”改为“v2fly_core”，确定。
+- 点击 设置 — 路由设置，将“域名解析策略”改为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
+- 右键点击屏幕右下角的v2rayN图标，点击“系统代理 — 自动配置系统代理”。
+
+6.2.在v2rayN中添加服务器
+
+点击“服务器 — 添加[Shadowsocks]服务器”
+- 服务器地址：你VPS的IP
+- 服务器端口：50001
+- 密码：8tetnZHnBJcrnbjIpTi9fQ==
+- 加密方式：aes-256-gcm
+
+确定
+
+点击“检查更新”
+- 点击“v2fly-Core — 是否下载? — 是”。
+- 点击“Update GeoSite — 是否下载? — 是”。
+- 点击“Update GeoIP — 是否下载? — 是”。
