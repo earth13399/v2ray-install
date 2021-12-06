@@ -57,12 +57,12 @@ systemctl start v2ray && systemctl status v2ray
 
 1.[禁止了VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 
-2.若在客户端未正确设置CN域名和IP直连，将在VPS端被阻止
+2.若在客户端未正确设置CN域名和IP直连，`将在VPS端被阻止`
 
 3.请使用v2ray_core的Shadowsocks连接VPS
 
 4.请勿使用Xray_core的Shadowsocks连接VPS（[有BUG暂未修复](https://github.com/XTLS/Xray-core/issues/625)）
 
-4.请选择带有v2ray_core的手机端APP连接VPS，并正确设置CN域名和IP直连（如[SagerNet](https://github.com/SagerNet/SagerNet)）
+4.请选择带有v2ray_core的手机端APP连接VPS，`并正确设置CN域名和IP直连`（如[SagerNet](https://github.com/SagerNet/SagerNet)）
 
 5.密码建议使用[20位或更强的](https://1password.com/password-generator/)
