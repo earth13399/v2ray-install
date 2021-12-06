@@ -17,7 +17,7 @@ curl -sSLo /usr/local/share/v2ray/geosite.dat https://github.com/Loyalsoldier/v2
 
 3.下载配置文件
 ```
-wget -O /usr/local/etc/v2ray/config.json https://raw.githubusercontent.com/chika0801/v2ray-examples/main/Shadowsocks-TCP/config_server_dns_routing_enhance.json
+wget -O /usr/local/etc/v2ray/config.json https://raw.githubusercontent.com/chika0801/v2ray-install/main/Shadowsocks-TCP/config_server_dns_routing_enhance.json
 ```
 
 4.设置v2ray开机启动
