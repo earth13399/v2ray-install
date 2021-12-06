@@ -55,7 +55,7 @@ systemctl start v2ray && systemctl status v2ray
 
 ## 注意事项
 
-1.禁止了VPS访问CN域名和IP
+1.[禁止了VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 
 2.若在客户端未正确设置CN域名和IP直连，将在VPS端被阻止
 
