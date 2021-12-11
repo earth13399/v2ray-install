@@ -63,6 +63,6 @@ systemctl start v2ray && systemctl status v2ray
 
 4.请勿使用Xray_core的Shadowsocks连接VPS，[否则会造成端口很快被封](https://github.com/XTLS/Xray-core/issues/625)
 
-4.请选择带有v2ray_core的手机端APP连接VPS，`并正确设置CN域名和IP直连`（如[SagerNet](https://github.com/SagerNet/SagerNet)）
+4.请选择带有v2ray_core的手机端APP连接VPS，`并正确设置CN域名和IP直连`（如[v2flyNG](https://github.com/2dust/v2flyNG/releases)）
 
 5.密码建议使用[20位或更强的](https://1password.com/password-generator/)
