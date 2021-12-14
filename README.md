@@ -36,7 +36,7 @@ systemctl restart v2ray && systemctl status v2ray
 
 - 点击 设置 — 参数设置 — v2rayN设置，勾选“更新Core时忽略Geo文件”，将“Core类型”改为“v2fly_core”，确定。
 - 点击 设置 — 路由设置，将“域名解析策略”改为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
-- 右键点击屏幕右下角的v2rayN图标![v](https://user-images.githubusercontent.com/88967758/145946936-c76e2b3a-45a8-4d98-bd51-a2475dad9b5a.jpg)，点击“系统代理 — 自动配置系统代理”。
+- 右键点击屏幕右下角的v2rayN图标，点击“系统代理 — 自动配置系统代理”。
 
 6.2.在v2rayN中添加服务器
 
