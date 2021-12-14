@@ -32,11 +32,13 @@ systemctl start v2ray && systemctl status v2ray
 
 6.1下载和设置v2rayN
 
-[打开链接](https://github.com/2dust/v2rayN/releases) 点击最新版本栏里的“▸ Assets”，找到名为v2rayN-Core.zip的文件并下载。
+[打开链接](https://github.com/2dust/v2rayN/releases) 点击最新版本栏里的“▸ Assets `4`”，找到名为`v2rayN-Core.zip`的链接并下载。把压缩包解压，找到`v2rayN-Core`文件夹里的`v2rayN.exe`并双击运行。
 
 - 点击 设置 — 参数设置 — v2rayN设置，勾选“更新Core时忽略Geo文件”，将“Core类型”改为“v2fly_core”，确定。
 - 点击 设置 — 路由设置，将“域名解析策略”改为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
-- 右键点击屏幕右下角的v2rayN图标，点击“系统代理 — 自动配置系统代理”。
+- 右键点击屏幕右下角的v2rayN图标![v](https://user-images.githubusercontent.com/88967758/145945361-cf744990-d7c9-4ea3-8fff-c4592cfa8004.jpg)，点击“系统代理 — 自动配置系统代理”。
+
+
 
 6.2.在v2rayN中添加服务器
 
@@ -66,3 +68,4 @@ systemctl start v2ray && systemctl status v2ray
 4.请选择带有v2ray_core的手机端APP连接VPS，`并正确设置CN域名和IP直连`（如[v2flyNG](https://github.com/2dust/v2flyNG/releases)）
 
 5.密码建议使用[20位或更强的](https://1password.com/password-generator/)
+
