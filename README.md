@@ -1,6 +1,6 @@
 ## v2ray + Shadowsocks-TCP 手动安装教程
 
-0.安装curl wget
+0.安装curl
 ```
 apt update -y && apt install -y curl
 ```
