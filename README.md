@@ -27,7 +27,7 @@ systemctl enable v2ray
 
 5.启动v2ray
 ```
-systemctl start v2ray && systemctl status v2ray
+systemctl restart v2ray && systemctl status v2ray
 ```
 
 6.1下载和设置v2rayN
