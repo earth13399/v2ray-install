@@ -69,9 +69,17 @@ systemctl restart v2ray && systemctl status v2ray
 
 ## Android系统客户端配置指南
 
-1.自己想办法在手机上安装[v2flyNG](https://github.com/2dust/v2flyNG/releases)
+1.自己想办法在手机上安装[v2flyNG](https://github.com/2dust/v2flyNG/releases)，通常是下载`v2flyNG_*_arm64-v8a.apk`版本
 
-2.
+2.用手机浏览器打开[客户端配置](https://github.com/chika0801/v2ray-install/blob/main/Shadowsocks-TCP/config_client_dns_routing_enhance.json)，全选后并复制
+
+3.进入v2flyNG，点击右上角`+` — 自定义配置 — 从剪贴板导入自定义配置
+
+4.找到刚才新增的服务器，点击最右边的`🖉`图标
+
+5.找到`"address": "", //地址`，在`""`中间添加你VPS的IP，点击右上角的`✓`
+
+6.点击右下角的v2flyNG图标
 
 ## 注意事项
 
