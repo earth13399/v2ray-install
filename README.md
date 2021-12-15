@@ -10,7 +10,7 @@ apt update -y && apt install -y curl
 bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
 ```
 
-2.下载路由规则文件加强版
+2.下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)
 ```
 curl -Lo /usr/local/share/v2ray/geosite.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geosite.dat && curl -Lo /usr/local/share/v2ray/geoip.dat https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/geoip.dat
 ```
