@@ -22,7 +22,7 @@
 apt update -y && apt install -y curl
 ```
 
-1.安装v2ray
+1.安装[v2ray](https://github.com/v2fly/v2ray-core/releases)
 ```
 bash <(curl -L https://raw.githubusercontent.com/v2fly/fhs-install-v2ray/master/install-release.sh)
 ```
