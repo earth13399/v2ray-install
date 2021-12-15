@@ -79,7 +79,11 @@ systemctl restart v2ray && systemctl status v2ray
 
 5.找到`"address": "", //地址`，在`""`中间添加你VPS的IP，点击右上角的`✓`
 
-6.点击右下角的v2flyNG图标
+6.手机上下载[路由规则文件加强版](https://github.com/Loyalsoldier/v2ray-rules-dat)的geoip.dat和geosite.dat文件
+
+7.入v2flyNG，点击左上角`≡` — Geo 资源文件，点击右上角`+`，分别选择刚才下载的geoip.dat和geosite.dat文件
+
+8.击右下角的v2flyNG图标
 
 ## 注意事项
 
