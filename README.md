@@ -1,5 +1,22 @@
 ## v2ray + Shadowsocks-TCP 手动安装教程
 
+准备软件
+
+- [Xshell 7 免费版](https://www.netsarang.com/en/free-for-home-school/)
+
+准备系统（新手不建议开始就[网络重装系统](https://github.com/bohanyang/debi)，请去你VPS网站上操作，建议重装系统为Deian10或11）
+
+- Debian 10
+- Debian 11
+- Ubuntu 18.04
+- Ubuntu 20.04
+
+开始安装
+
+- 使用Xshell 7连接你的VPS
+- 使用root用户登陆
+- 请从步骤0开始按顺序操作
+
 0.安装curl
 ```
 apt update -y && apt install -y curl
