@@ -55,7 +55,7 @@ systemctl restart v2ray && systemctl status v2ray
 - 点击 设置 — 路由设置，将“域名解析策略”改为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
 - 右键点击屏幕右下角的v2rayN图标，点击“系统代理 — 自动配置系统代理”。
 
-6.2.在v2rayN中添加服务器
+6.2在v2rayN中添加服务器
 
 - 复制[客户端配置](https://github.com/chika0801/v2ray-install/blob/main/Shadowsocks-TCP/config_client_dns_routing_enhance.json)，新建一个文本文档，粘贴其内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存。
 - 点击 服务器 — 添加自定义配置服务器 — 确定，在弹出的对话框中，将右下角的Config (.json)改为All (.*)，选择刚才新建的文本文档，点击打开，确定。
