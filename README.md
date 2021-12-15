@@ -57,7 +57,8 @@ systemctl restart v2ray && systemctl status v2ray
 
 6.2.在v2rayN中添加服务器
 
-点击“服务器 — 添加[Shadowsocks]服务器”
+复制[客户顶配置](https://github.com/chika0801/v2ray-install/blob/main/Shadowsocks-TCP/config_client_dns_routing_enhance.json)，新建一个文本文档，粘贴其内容，找到`"address": "", //地址`，在""中间添加你VPS的IP，并保存。
+点击“服务器 — 添加自定义配置服务器”
 - 服务器地址：`你VPS的IP`
 - 服务器端口：`50001`
 - 密码：`8tetnZHnBJcrnbjIpTi9fQ==`
