@@ -47,7 +47,8 @@ systemctl enable v2ray
 systemctl restart v2ray && systemctl status v2ray
 ```
 
-6.1下载和设置v2rayN
+## Windows系统客户端配置指南
+1.下载和设置v2rayN
 
 [打开链接](https://github.com/2dust/v2rayN/releases) 点击最新版本栏里的“▸ Assets `4`”，找到名为`v2rayN-Core.zip`的链接并下载。把压缩包解压，找到`v2rayN-Core`文件夹里的`v2rayN.exe`并双击运行。
 
@@ -55,7 +56,7 @@ systemctl restart v2ray && systemctl status v2ray
 - 点击 设置 — 路由设置，将“域名解析策略”改为“IPIfNonMatch”，取消勾选“启用路由高级功能”，将“域名匹配算法”改为“mph”，点击“基础功能”，点击“一键导入基础规则”，确定，确定。
 - 右键点击屏幕右下角的v2rayN图标，点击“系统代理 — 自动配置系统代理”。
 
-6.2在v2rayN中添加服务器
+2.在v2rayN中添加服务器
 
 - 复制[客户端配置](https://github.com/chika0801/v2ray-install/blob/main/Shadowsocks-TCP/config_client_dns_routing_enhance.json)，新建一个文本文档，粘贴其内容，找到`"address": "", //地址`，在`""`中间添加你VPS的IP，并保存。
 - 点击 服务器 — 添加自定义配置服务器 — 确定，在弹出的对话框中，将右下角的Config (.json)改为All (.*)，选择刚才新建的文本文档，点击打开，确定。
@@ -65,6 +66,12 @@ systemctl restart v2ray && systemctl status v2ray
 - 点击“v2fly-Core — 是否下载? — 是”。
 - 点击“Update GeoSite — 是否下载? — 是”。
 - 点击“Update GeoIP — 是否下载? — 是”。
+
+## Android系统客户端配置指南
+
+1.自己想办法在手机上安装[v2flyNG](https://github.com/2dust/v2flyNG/releases)
+
+2.
 
 ## 注意事项
 
