@@ -38,10 +38,10 @@
             "port": 50001, //端口
             "protocol": "shadowsocks",
             "settings": {
-                    "method": "AES-256-GCM", //加密方式
-                    "password": "8tetnZHnBJcrnbjIpTi9fQ==", //密码
-                    "network": "tcp",
-                    "ivCheck": true
+                "method": "AES-256-GCM", //加密方式
+                "password": "8tetnZHnBJcrnbjIpTi9fQ==", //密码
+                "network": "tcp",
+                "ivCheck": true
             },
             "streamSettings": {
                 "network": "tcp",
