@@ -62,7 +62,7 @@ systemctl restart v2ray && systemctl status v2ray
 - 点击 服务器 — 添加自定义配置服务器 — 确定，在弹出的对话框中，将右下角的Config (.json)改为All (.*)，选择刚才新建的文本文档，点击打开，确定。
 - 点击服务器列表中刚才新增的服务器，按回车键载入配置。
 
-点击“检查更新”
+3.点击“检查更新”
 - 点击“v2fly-Core — 是否下载? — 是”。
 - 点击“Update GeoSite — 是否下载? — 是”。
 - 点击“Update GeoIP — 是否下载? — 是”。
