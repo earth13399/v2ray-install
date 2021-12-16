@@ -47,9 +47,6 @@ systemctl enable v2ray
 systemctl restart v2ray && systemctl status v2ray
 ```
 
-6.其它
-- 修改服务器配置文件的方法：使用[WinSCP](https://winscp.net/eng/download.php)连接你的VPS，进入/usr/local/etc/v2ray/目录，双击config.json文件编辑，找到`"port": 50001, //端口`，`"password": "8tetnZHnBJcrnbjIpTi9fQ==", //密码`，修改后并保存，然后重启v2ray，使其生效。
-
 ## Windows系统客户端配置指南
 1.下载和设置v2rayN
 
