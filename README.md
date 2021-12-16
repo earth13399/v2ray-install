@@ -89,14 +89,8 @@ systemctl restart v2ray && systemctl status v2ray
 
 1.[禁止了VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 
-2.若在客户端未正确设置CN域名和IP直连，`将在VPS端被阻止`
+2.请选择带有v2ray_core的客户端连接VPS，`并正确设置CN域名和IP直连`，若在客户端未正确设置CN域名和IP直连，`将在VPS端被阻止`
 
-3.请使用v2ray_core的Shadowsocks连接VPS
+3.密码建议使用[20位或更强的](https://1password.com/password-generator/)
 
-4.请勿使用Xray_core的Shadowsocks连接VPS，[否则会造成端口很快被封](https://github.com/XTLS/Xray-core/issues/625)
-
-4.请选择带有v2ray_core的手机端APP连接VPS，`并正确设置CN域名和IP直连`（如[v2flyNG](https://github.com/2dust/v2flyNG/releases)）
-
-5.密码建议使用[20位或更强的](https://1password.com/password-generator/)
-
-6.为什么要使用自定义配置服务器？因为客户端配置需要手动添加["ivCheck"](https://github.com/v2fly/v2ray-core/pull/777#issuecomment-813963430)参数
+4.为什么要使用自定义配置服务器？因为客户端配置需要手动添加["ivCheck"](https://github.com/v2fly/v2ray-core/pull/777#issuecomment-813963430)参数
