@@ -89,7 +89,7 @@ systemctl restart v2ray && systemctl status v2ray
 
 1.[禁止了VPS访问CN域名和IP](https://github.com/XTLS/Xray-core/discussions/593#discussioncomment-845165)
 
-2.请选择带有v2ray_core的客户端连接VPS，`并正确设置CN域名和IP直连`，若在客户端未正确设置CN域名和IP直连，`将在VPS端被阻止`
+2.请选择带有v2ray_core的客户端连接VPS，并正确设置CN域名和IP直连，若在客户端未正确设置CN域名和IP直连，将在VPS端被阻止
 
 3.密码建议使用[20位或更强的](https://1password.com/password-generator/)
 
